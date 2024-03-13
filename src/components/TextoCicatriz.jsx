@@ -107,6 +107,8 @@ function Texto() {
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Los Sitios de Memoria se han consolidado como espacios respetuosos de la historia de un país y su rol activo como defensores de los derechos humanos. Por ello, el Comité del Patrimonio Mundial aprobó la inclusión del Museo Sitio de Memoria ESMA en la <a href='https://www.argentina.gob.ar/noticias/el-museo-sitio-de-memoria-esma-fue-declarado-patrimonio-mundial-de-la-unesco' target="_blank" className='text-blue-500 hover:underline'>Lista del Patrimonio Mundial.</a> </h2>
       <img src={Foto18} className='mb-8' alt="" />
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Desde el Campo de Concentración Nazi Auschwitz-Birkenau a ESMA. La importancia de  los Sitios de Memoria es tal que incluso han logrado la categoría de Patrimonio de la humanidad.</h2>
+
+      <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Las grietas del mundo reclaman volver a aparecer y pertenecer al presente. A través de los Sitios de Memoria recordar de nuevo los asuntos ya pasados es un acto de respeto y justicia a la defensa de la vida humana.</h2>
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8 pb-40'>Verdad, Justicia y Verdad.</h2>
         </div>
       </div>
