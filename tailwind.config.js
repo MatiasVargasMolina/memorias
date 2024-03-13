@@ -10,7 +10,7 @@ export default {
       verdanaBold: ["verdanaBold","sans"],
     },
     fontSize: {
-      'xl': '22px',
+      'xl': '27px',
     },
     fontWeight: {
       thin: '200',
@@ -19,7 +19,7 @@ export default {
       'extra-loose': '45px'
     },
     letterSpacing: {
-      wider: '0.05em', // Puedes ajustar este valor según tus preferencias
+      wider: '0.01em', // Puedes ajustar este valor según tus preferencias
     },
   },
   },
