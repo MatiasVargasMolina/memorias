@@ -18,6 +18,7 @@ import Foto16 from "../assets/cicatriz16.jpg"
 import Foto17 from "../assets/cicatriz17.jpg"
 import Foto18 from "../assets/cicatriz18.jpg"
 import cicatrizUltima from "../assets/cicatrizultima.jpg"
+import cicatriz100 from "../assets/cicatriz100.jpg" 
 
 
 function Texto() {
@@ -91,10 +92,12 @@ function Texto() {
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'> Las cifras recopiladas por <a href='https://www.codehupy.org.py/verdadyjusticia/' target="_blank" className='text-blue-500 hover:underline'>Comisión de Verdad y Justicia de Paraguay</a>.</h2>
       <img src={Foto14} className='mb-8' alt="" />
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>La secretaria ejecutiva del Proyecto MEVES, Verónica Figueredo, explica la labor que tiene el proyecto.</h2>
+      <div className='mt-20 mb-20'><iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1706510136&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div><a href="https://soundcloud.com/memoria-ensiti0" title="Memoria En Su Sitio" target="_blank" >Memoria En Su Sitio</a> · <a href="https://soundcloud.com/memoria-ensiti0/meves-paraguay-m4a" title="Proyecto MEVES de Paraguay" target="_blank" >Proyecto MEVES de Paraguay</a></div></div>
 
-      <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Nunca más en guaraní.</h2>
-      <div className="flex justify-center mb-8">
+      
+      <div className="flex flex-col items-center mb-8">
       <iframe width="840" height="472" src="https://www.youtube.com/embed/B24bXb4U42Q?si=N9HyhmlDEU-MtftK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <img className='mb-10 mt-10 pt-10' src={cicatriz100}></img>
       </div>
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Otro ejemplo, de políticas de resguardo y trabajo de memoria es Argentina, con la creación de la <a href='https://www.argentina.gob.ar/derechoshumanos/sitiosdememoria/normativa#:~:text=La%20Ley%2026.691%20declara%20Sitios,10%20de%20diciembre%20de%201983%E2%80%9D.' target="_blank" className='text-blue-500 hover:underline'>Ley 26.691</a> se señala el rol del Estado frente a los Sitios de Memoria.</h2>
       <img src={Foto15} className='mb-8' alt="" />
@@ -104,8 +107,8 @@ function Texto() {
       <img src={Foto17} className='mb-8' alt="" />
       <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Los Sitios de Memoria se han consolidado como espacios respetuosos de la historia de un país y su rol activo como defensores de los derechos humanos. Por ello, el Comité del Patrimonio Mundial aprobó la inclusión del Museo Sitio de Memoria ESMA en la <a href='https://www.argentina.gob.ar/noticias/el-museo-sitio-de-memoria-esma-fue-declarado-patrimonio-mundial-de-la-unesco' target="_blank" className='text-blue-500 hover:underline'>Lista del Patrimonio Mundial.</a> </h2>
       <img src={Foto18} className='mb-8' alt="" />
-      <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Desde el Campo de Concentración Nazi Auschwitz-Birkenau a ESMA. La importancia de  los Sitios de Memoria es de tal importancia que incluso han logrado la categoría de Patrimonio de la humanidad.</h2>
-      <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Señal potente, de la importancia que tienen los Sitios de Memoria. Verdad, Justicia y Verdad.</h2>
+      <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Desde el Campo de Concentración Nazi Auschwitz-Birkenau a ESMA. La importancia de  los Sitios de Memoria es tal que incluso han logrado la categoría de Patrimonio de la humanidad.</h2>
+      <h2 className='font-verdana text-xl leading-loose text-justify mb-8 pb-40'>Verdad, Justicia y Verdad.</h2>
         </div>
       </div>
     </div>
