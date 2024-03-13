@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Texto from '../components/Texto'
+import TextoCicatriz from '../components/TextoCicatriz'
 function CicatrizDeCiudad() {
   return (
     <div>
         <Navbar></Navbar>
-        <Texto></Texto></div>
+        <TextoCicatriz></TextoCicatriz></div>
   )
 }
 
