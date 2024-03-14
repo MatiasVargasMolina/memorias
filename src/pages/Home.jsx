@@ -17,6 +17,14 @@ function Home() {
       // Aquí puedes especificar la ruta a la que quieres dirigir
       navigate('/sitiosDeMemoria');
     };
+    const handleButtonClickMemoria = () => {
+      // Aquí puedes especificar la ruta a la que quieres dirigir
+      navigate('/MemoriaAlOtro');
+    };
+    const handleButtonClickveces = () => {
+      // Aquí puedes especificar la ruta a la que quieres dirigir
+      navigate('/vecesHoy');
+    };
   
     return (
         <>      <Navbar></Navbar><section className="bg-white dark:bg-gray-900">
@@ -45,7 +53,7 @@ function Home() {
             <div className="flex flex-col p-2 text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-2 text-xl font-semibold">Memoria al otro lado del río</h3>
               <img src={img1} className='rounded-md mb-2 h-50' alt="" />
-              <button type="button" className="text-white bg-indigo-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <button type="button" onClick={handleButtonClickMemoria} className="text-white bg-indigo-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Ver Más
               </button>
               <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
@@ -53,7 +61,7 @@ function Home() {
             <div className="flex flex-col p-2 text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-2 text-xl font-semibold">50 veces hoy</h3>
               <img src={img4} className='rounded-md mb-2 h-50' alt="" />
-              <button type="button" className="text-white bg-indigo-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <button onClick={handleButtonClickveces} type="button" className="text-white bg-indigo-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Ver Más
               </button>
               <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-4 py-2 inline-flex items-center dark:text-white  dark:focus:ring-primary-900">Get started</a>

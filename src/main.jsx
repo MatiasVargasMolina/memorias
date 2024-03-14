@@ -8,7 +8,8 @@ import "./index.css";
 import Home from "./pages/Home";
 import CicatrizDeCiudad from "./pages/CicatrizDeCiudad";
 import SitiosDeMemoria from "./pages/SitiosDeMemoria.jsx";
-
+import MemoriaAlOtro from "./pages/MemoriaAlOtro.jsx";
+import VecesHoy from "./pages/VecesHoy.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,14 @@ const router = createBrowserRouter([
   {
     path: "/cicatrizDeUnaCiudad",
     element: <CicatrizDeCiudad/>,
+  },
+  {
+    path: "/MemoriaAlOtro",
+    element: <MemoriaAlOtro/>,
+  },
+  {
+    path: "/vecesHoy",
+    element: <VecesHoy/>,
   },
 ]);
 
