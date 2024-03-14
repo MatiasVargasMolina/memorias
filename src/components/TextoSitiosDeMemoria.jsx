@@ -18,6 +18,27 @@ import sitios16 from "../assets/sitios16.jpg"
 import sitios17 from "../assets/sitios17.jpg"
 import sitios18 from "../assets/sitios18.jpg"
 import sitios19 from "../assets/sitios19.jpg"
+import sitios20 from "../assets/sitios20.jpg"
+
+import sitios22 from "../assets/sitios22.jpg"
+import sitios23 from "../assets/sitios23.jpg"
+import sitios24 from "../assets/sitios24.jpg"
+import sitios25 from "../assets/sitios25.jpg"
+import sitios26 from "../assets/sitios26.jpg"
+import sitios27 from "../assets/sitios27.jpg"
+import sitios28 from "../assets/sitios28.jpg"
+import sitios29 from "../assets/sitios29.jpg"
+import sitios30 from "../assets/sitios30.jpg"
+import sitios31 from "../assets/sitios31.jpg"
+import sitios32 from "../assets/sitios32.jpg"
+import sitios33 from "../assets/sitios33.jpg"
+import sitios34 from "../assets/sitios34.jpg"
+import sitios35 from "../assets/sitios35.jpg"
+import sitios36 from "../assets/sitios36.jpg"
+import sitios37 from "../assets/sitios37.jpg"
+import sitios38 from "../assets/sitios38.jpg"
+
+import citios from "../assets/4.jpg"
 function TextoSitiosDeMemoria() {
     return (
         <div className='flex-col items-center w-full'>
@@ -27,7 +48,7 @@ function TextoSitiosDeMemoria() {
                     <h2 className='font-verdana text-xl text-center'>***</h2>
                     <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>11 de septiembre de 1973, el día que no deja de suceder en la historiografía de un país. A medio siglo de aquella mañana del noveno mes con pájaros de fuego encima de una ciudad envuelta de incertidumbre. La marca 11 continúa perpetuada en la piel social de un país.</h2>
                     <img src={sitios2} alt="" />
-                    <h2>Las detenciones forzosas y detenciones clandestinas fueron parte de las prácticas utilizadas por el régimen desde su primer día en el poder. De esta manera, centros deportivos dejaron de lado su función natural y el deporte practicado fue detener y torturar.</h2>
+                    <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>Las detenciones forzosas y detenciones clandestinas fueron parte de las prácticas utilizadas por el régimen desde su primer día en el poder. De esta manera, centros deportivos dejaron de lado su función natural y el deporte practicado fue detener y torturar.</h2>
                     <img src={sitios3} alt="" />
                     <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>El artista nacional, Víctor Jara, detenido y asesinado en el Estadio Chile, ya sin la sonrisa ancha y apretando firme su mano se preguntaba:</h2>
                     <img src={sitios4} alt="" />
@@ -71,10 +92,62 @@ function TextoSitiosDeMemoria() {
                     <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Para que un espacio físico pueda obtener la categoría de Monumento Histórico, primero debe presentar una carta de solicitud al CMN. </h2>
                     <img src={sitios17} alt="" />
                     <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Un ejemplo, es el caso de Memoria Pilmaiquén, dice Nero Fuentes, miembro de la Corporación Memoria de Pilmaiquén, “Fue de los ríos en que se cometieron mayores asesinatos, la mayoría de los Detenidos Desaparecidos fueron lanzados al río. Es un lugar conmemorativo y nos constituimos el 2015 por necesidad. El lugar estaba abandonado y nos avocamos para tramitarlo como Sitio de Memoria.”</h2>
-                    <h2>La Corporación de derechos Humanos Pilmaiquén, envió la carta de solicitud el 4 de noviembre de 2017 y fue declarado como Monumento Histórico el 19 Julio de 2022.</h2>
-                    <h2>Declaratoria que se une a los otros ex centros de detención y tortura que han sido declarados como Monumento Histórico. A la fecha oficialmente han sido reconocidos como Sitios de Memoria 46 espacios.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>La Corporación de derechos Humanos Pilmaiquén, envió la carta de solicitud el 4 de noviembre de 2017 y fue declarado como Monumento Histórico el 19 Julio de 2022.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Declaratoria que se une a los otros ex centros de detención y tortura que han sido declarados como Monumento Histórico. A la fecha oficialmente han sido reconocidos como Sitios de Memoria 46 espacios.</h2>
                     <img src={sitios18} alt="" />
-                    <img src={sitios19}/>
+                    <img src={sitios19} />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Los espacios reconocidos como Monumento Histórico pueden proceder a constituirse como un un Sitio de Memoria abierto a la comunidad, adquiriendo el rol de espacio museal. </h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Ese es el caso del espacio Londres 38, cuyo espacio físico quedó destinado a un remate público el año 2006. Sin embargo, debido a su declaración como Monumento Histórico y al trabajo de recuperación del inmueble por colectivos de DD.HH, ex detenidos del cuartel, familiares de las víctimas no se concretó la venta.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Desde 2008 que Londres 38 es un Sitio de Memoria abierto a la comunidad.</h2>
+                    <img src={sitios20} alt="" />
+                    <img src={citios} />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Sin embargo, a pesar de los esfuerzos de las diversas agrupaciones por reconocer a Sitios de Memorias con la categoría de Monumento Histórico, no todos los espacios gozan con ser un espacio museal.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Por lo que se imposibilita poder constituir los ex centros de detención como Sitios de Memorias abiertos a la comunidad. </h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Al presente, el Registro de Museos de Chile (RMC) sólo cuenta con seis espacios museales que se identifican como sitios de memorias.</h2>
+                    <div className='flex-col'>
+                        <img src={sitios22} alt="" />
+                        <img src={sitios23} />
+                    </div>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>***</h2>
+                    <img src={sitios24} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Conservar patrimonial y simbólicamente los ex centros de detención es una temática que genera discusión a la fecha. Según lo señalado en el más reciente Informe Anual de Sitios de Memoria del INDH del 2018.</h2>
+                    <img src={sitios25} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Por ese motivo el historiador y ex encargado de gestión de memoriales y sitios de memoria del Consejo de Monumentos Nacionales, Pablo Seguel, resalta lo fundamental que las organizaciones civiles luchen por visibilizar los sitios:</h2>
+                    <img src={sitios26} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Ana Becerra sobreviviente del recinto y miembro del Sitio de Memoria Rocas de Santo Domingo expone lo difícil que es la preservación de un espacio de memoria en Chile.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>“Es una lucha contra el olvido, contra todos los molinos del viento porque no hay ninguna protección legal hacia el sitio, no más que haberse declarado Monumento Nacional, que es al principio un papel que sirve de declaratoria, pero en la práctica no tiene ninguna protección”.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Si bien, el 12 de noviembre de 2014, el Consejo de Monumentos Nacional declaró como Monumento Nacional en la categoría de Sitio Histórico al ex centro de Detención Rocas de Santo Domingos, debido a que identificó que:</h2>
+                    <img src={sitios27} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Para Ana Becerra, fue un avance simbólico el hecho que el Sitio fuese declarado Monumento Nacional, sin embargo, no se ha materializado una conservación patrimonial adecuada. </h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>“Es un decreto que tendría que tener algún estudio del sitio, pero no lo hay. Se declara Monumento Nacional y después queda a la buena de Dios”.</h2>
+                    <img src={sitios28} alt="" />
+                    <img src={sitios29} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Desde la Agrupación por la Memoria Histórica de Providencia denuncian la problemática de los Sitios de Memoria y el rol del Estado.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>“El estado chileno firma compromisos, dice que está interesado en que cada lugar de Chile pueda haber Sitios de Memoria, pero no mueven un dedo y somos nosotros (las organizaciones) los que tenemos que estar permanentemente presionando y haciendo movilizaciones”.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>El Sitio de Memoria Divina Providencia fue declarado Monumento Histórico el 7 de noviembre de 2016 por medio del decreto Nº 299.</h2>
+                    <img src={sitios30} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Héctor Maturana, Vicepresidente de la Agrupación Memoria Histórica de Providencia señala que:</h2>
+                    <img src={sitios31} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Otro caso, de Sitio de Memoria en búsqueda de la recuperación del espacio físico es 3 y 4 Álamos. Félix Madariaga encargado de comunicaciones de la Corporación de memoria 3 y 4 Álamos señala:</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>"El ex recinto de la Congregación de Misioneros Oblatos de María Inmaculada fue adquirido por el Fisco en el año 1971 para utilizarlo como Casa Nacional de Menores. </h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Pero, el destino que le había asignado el gobierno de la Unidad Popular cambió abruptamente luego del 11 de septiembre de 1973, porque después de que los militares ponen fin al Estadio Chile y otros lugares como campo de prisioneros y prisioneras, el ex convento religioso fue destinado como campamento de detención de Prisioneros y Prisioneras políticos."</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Del mismo modo, que otros Sitios de Memoria a través de las iniciativas de las agrupaciones a cargo de resguardar la memoria de un espacio, 3 y 4 Álamos fue declarado Monumento Histórico por el CMN el año 2012. </h2>
+                    <img src={sitios32} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>A pesar de ser un Sitio de Memoria declarado por el CMN, en la actualidad el espacio ubicado en la calle Canadá N° 5359, en la comuna de San Joaquín en Santiago es un recinto de menores. </h2>
+                    <img src={sitios33} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Félix Madariaga explica porqué el Sitio de Memoria 3 y 4 Álamos es una "memoria en disputa".</h2>
+                    <img src={sitios34} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>"La Corporación Campo de Concentración 3y4 Álamos, en la que participan ex prisioneros y prisioneras del centro, tiene como misión la recuperación total del recinto para la construcción de un sitio de memoria abierto a toda la comunidad”.</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>***</h2>
+                    <img src={sitios35} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>En el estudio “La memoria urbana traumatizada”, se advierte que “Chile es un país con su memoria traumatizada. Trauma provocado por el sufrimiento que provocó el atropello a los derechos humanos durante la dictadura".</h2>
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Las cifras oficiales que maneja el Estado chileno a través de los informes que ha realizado son una lágrima que rueda en la dulce patria.</h2>
+                    <img src={sitios36} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>A partir de las secuelas que dejó la dictadura militar toma fuerza la tesis de que Chile es un país traumatizado y que ha conllevado a olvidar huellas dictatoriales, como es el caso de algunos Sitios de Memoria. </h2>
+                    <img src={sitios37} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>Continuando con la problemática de los Sitios de Memoria, se evidencia la dispar situación de los ex centros de detención y tortura: o los espacios son abandonados, transformados, resignificados u olvidados.</h2>
+                    <img src={sitios38} alt="" />
+                    <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>La conservación física y simbólica de los espacios de memoria ha implicado concretar iniciativas materializadas por miembros de agrupaciones, ONG, juntas de vecinos y universidades, quienes realizan actividades para preservar el valor histórico de los sitios. </h2>   
                 </div>
             </div>
         </div>
