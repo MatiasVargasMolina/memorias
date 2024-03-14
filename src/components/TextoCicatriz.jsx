@@ -19,14 +19,18 @@ import Foto17 from "../assets/cicatriz17.jpg"
 import Foto18 from "../assets/cicatriz18.jpg"
 import cicatrizUltima from "../assets/cicatrizultima.jpg"
 import cicatriz100 from "../assets/cicatriz100.jpg" 
-
+import img1 from "../assets/bñ.jpeg"
+import imgSitios from "../assets/sitios.jpeg"
+import img4 from "../assets/4.jpg"
+import titulo from "../assets/titulo.jpg"
 
 function Texto() {
   return (
     <div className='flex-col items-center w-full'>
-      <h2>***</h2>
       <div className='flex flex-col items-center'>
         <div className='w-1/2'>
+        <img className="mt-20 pt-10" src={titulo} alt="" />
+
         <a href="#" class=" flex h-3/4 pt-8 mt-8 overflow-hidden whitespace-no-wrap">
         <div className='pl-4 ml-4 flex flex-col h-screen items-start'>
           <h1 className='mb-4 text-4xl font-play ml-4 font-thin '>MEMORIAS</h1>
