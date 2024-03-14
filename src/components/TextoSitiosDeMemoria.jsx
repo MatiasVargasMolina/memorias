@@ -37,7 +37,7 @@ import sitios35 from "../assets/sitios35.jpg"
 import sitios36 from "../assets/sitios36.jpg"
 import sitios37 from "../assets/sitios37.jpg"
 import sitios38 from "../assets/sitios38.jpg"
-
+import encabezado from "../assets/encabezadositios.jpg"
 import citios from "../assets/4.jpg"
 function TextoSitiosDeMemoria() {
     return (
@@ -45,8 +45,9 @@ function TextoSitiosDeMemoria() {
             <div className='flex flex-col items-center'>
                 <div className='w-1/2'>
                     <img className="mt-20 pt-10" src={titulositios} alt="" />
-                    <h2 className='font-verdana text-xl text-center'>***</h2>
-                    <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>11 de septiembre de 1973, el día que no deja de suceder en la historiografía de un país. A medio siglo de aquella mañana del noveno mes con <a href='https://www.youtube.com/watch?v=JsormzukWRk' target="_blank" className='text-blue-500 hover:underline'>pájaros de fuego</a>encima de una ciudad envuelta de incertidumbre. La marca 11 continúa perpetuada en la piel social de un país.</h2>
+                    <img src={encabezado} />
+                    <h2 className='font-verdana text-xl text-center'>****</h2>
+                    <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>11 de septiembre de 1973, el día que no deja de suceder en la historiografía de un país. A medio siglo de aquella mañana del noveno mes con <a href='https://www.youtube.com/watch?v=JsormzukWRk' target="_blank" className='text-blue-500 hover:underline'>pájaros de fuego </a>encima de una ciudad envuelta de incertidumbre. La marca 11 continúa perpetuada en la piel social de un país.</h2>
                     <img src={sitios2} alt="" />
                     <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>Las detenciones forzosas y detenciones clandestinas fueron parte de las prácticas utilizadas por el régimen desde su primer día en el poder. De esta manera, centros deportivos dejaron de lado su función natural y el deporte practicado fue detener y torturar.</h2>
                     <img src={sitios3} alt="" />

@@ -23,23 +23,14 @@ import img1 from "../assets/bñ.jpeg"
 import imgSitios from "../assets/sitios.jpeg"
 import img4 from "../assets/4.jpg"
 import titulo from "../assets/titulo.jpg"
-
+import Encabezado from "../assets/encabezadocicatriz.jpg"
 function Texto() {
   return (
     <div className='flex-col items-center w-full'>
       <div className='flex flex-col items-center'>
         <div className='w-1/2'>
-        <img className="mt-20 pt-10" src={titulo} alt="" />
-
-        <a href="#" class=" flex h-3/4 pt-8 mt-8 overflow-hidden whitespace-no-wrap">
-        <div className='pl-4 ml-4 flex flex-col h-screen items-start'>
-          <h1 className='mb-4 text-4xl font-play ml-4 font-thin '>MEMORIAS</h1>
-          <h2 className='mb-4 text-3xl font-play ml-4 '>Del lat. memoria.</h2>
-          <h2 className='mb-4 text-3xl  font-play ml-4 '>1.f.Facultad psíquica por medio de la cual se retiene y recuerda el pasado.</h2>
-          <h2 className='mb-4 text-3xl font-play ml-4 '>Recorrer la memoria</h2>
-          <h2 className='mb-4 text-3xl font-play ml-4 '>renovar la memoria</h2>
-          <h2 className='mb-4 text-3xl font-play ml-4 '>2.loc. verb. Recordar de nuevo los asuntos ya pasados..</h2></div>
-      </a>
+        <img className="mt-20 mb-20 pt-10" src={titulo} alt="" />
+      <img src={Encabezado} alt="" />
           <h2 className='font-verdana text-xl text-center'>***</h2>
           <h2 className='font-verdana font-[1100] text-xl leading-loose text-justify mb-8'>Las memorias históricas de un país son el resultado de un largo tejido de fragmentos históricos que dan forma a la cultura e identidad de un territorio. En numerosas ocasiones, las historiografías de los países han estado marcado por violentos sucesos que han dejado párrafos tatuados con caligrafía herida.</h2>
           <h2 className='font-verdana text-xl leading-loose text-justify mb-8'>La capacidad de respuesta frente a coyunturas trágicas se ha manifestado en testimoniar aquellas experiencias traumáticas con el fin de no olvidar y educar en materias de derechos humanos. </h2>
